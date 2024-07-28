@@ -5,13 +5,13 @@ pipeline   //comment: declarative pipeline alwasy starts with pipeline
    {
       stage('This is for SCM checckout')  //stage name
       { 
-        steps { echo 'This is for SCM checkout'  }   //This is checkout phase
+        steps { echo 'This is for SCM checkout'}   //This is checkout phase
       }
-         stage('This is for Code build')  //stage name
+         stage ('This is for Code build')  //stage name
       { 
-        steps { echo 'This is for code build'  }   //This is code build phase
-
-         stage('This is for Code Deploy')  //stage name
+        steps { echo 'This is for code build'}   //This is code build phase
+      }
+         stage ('This is for Code Deploy')  //stage name
       { 
         steps { echo 'This is for Code Deploy'}   //This is code deployment phase
     }
