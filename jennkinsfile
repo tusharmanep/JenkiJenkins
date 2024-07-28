@@ -13,7 +13,7 @@ pipeline   //comment: declarative pipeline alwasy starts with pipeline
 
          stage('This is for Code Deploy')  //stage name
       { 
-        steps { echo 'This is for Code Deploy'  }   //This is code deployment phase
-
+        steps { echo 'This is for Code Deploy'}   //This is code deployment phase
+    }
     }
 }
