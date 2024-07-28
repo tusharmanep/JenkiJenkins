@@ -1,0 +1,7 @@
+Pipeline
+{
+        stages(Print Message)  //it contains all the satages
+        {
+                steps{echo 'print hellow world '}
+        }
+}
