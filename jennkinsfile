@@ -3,9 +3,9 @@ Pipeline
 agent any
         stages ('Print Message')  //it contains all the satages
         {
-                stages ('This is an first file')
+                stage ('This is an first file')
                 {
-                        steps{echo "print hellow world"}
+                        steps {echo 'print hellow world'}
                 }
         }
 }
