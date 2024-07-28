@@ -1,9 +1,9 @@
 Pipeline
 {
 agent any
-        stages(Print Message)  //it contains all the satages
+        stage(Print Message)  //it contains all the satages
         {
-                steps{echo 'This is an first file'}
+                steps {echo 'This is an first file'}
                 {
                         steps{print hellow world}
                 }
