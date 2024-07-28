@@ -2,6 +2,9 @@ Pipeline
 {
         stages(Print Message)  //it contains all the satages
         {
-                steps{echo 'print hellow world '}
+                steps{echo 'This is an first file'}
+                {
+                        steps{print hellow world}
+                }
         }
 }
