@@ -4,6 +4,9 @@ pipeline   //comment: declarative pipeline alwasy starts with pipeline
     stages  //it contains all the stages
    {
       stage('This is for SCM checckout')  //stage name
+       {
+            steps { {git 'https://github.com/tusharmanep/JenkiJenkins.git'}
+        }
       { 
         steps { echo 'This is for SCM checkout'}   //This is checkout phase
       }
